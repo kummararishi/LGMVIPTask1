@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project1</title>
+        <link href="C:\htmlprograms\css\style.css" rel="stylesheet" type="text/css">
+        <script src="js/script.js" crossorigin="anonymous"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    </head>
+    <body>
+        <div class="head">
+        <p>
+            <h1>Webpage for upload medical reports and set a remainder for patients to take their prescriptions</h1>
+        </p>
+        <a id="nav-btn"> <i class="fas fa-bars"></i></a>
+        </div>
+        <p>
+            <fieldset>
+                <div class="signup">
+                <h2>Sign up</h2>
+                </div>
+                <div class="user">
+                    <h2>Username:</h2>
+                    <textarea name="Username" placeholder="Enter your Username" style="font-size: 18pt; height: 40px; color: blue; width:280px;"></textarea>
+                    </div>
+                <div class="pass">
+                    <h2>Password:</h2>
+                    <textarea name="Password" placeholder="Enter your Password" style="font-size: 18pt; height: 40px; color: blue; width:280px;"></textarea>
+                    </div>   
+                <div class="email">
+                    <h2>Email</h2>
+                    <textarea name="Email" placeholder="Enter your Email" style="font-size: 18pt; height: 40px; color: blue; width:280px;"></textarea>
+                   </div>
+                <div class="age">
+                    <h2>Age</h2>
+                    <textarea number="Age" placeholder="Enter your Age" style="font-size: 18pt; height: 40px; color: blue; width:280px;"></textarea>
+                </div>
+                <div class="selected">
+                <h1>Select</h1>
+                </div>
+                <body>
+                <label class="container">Male
+                  <input type="radio" checked="checked" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Female
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Transgender
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                </body>
+            </fieldset>
+        </p>
+        <p>
+        <fieldset>
+        <div class="reports">
+        <h2 id="back to top">Hospital reports uploading and tablets name uploading platform</h2>
+        </div>
+        <h3><a href = "#About">About</a></h3>
+        <h3><a href = "#hospital reports upload">Medical reports upload</a></h3>
+        <h3><a href = "#tablets name for sugar patients">Tablets and drugs name for sugar patients</a></h3>
+        <h3><a href = "#tablets name for bp patiets">Tablets and drugs name for BP patients</a></h3>
+        <h3><a href = "#tablets name for fever">Tablets and drugs name for fever</a></h3>
+        <h3><a href = "#tablets name for cold and cough">Tablets and drugs name for cold and cough</a></h3>
+        <h3><a href = "#tablets name for headache">Tablets and drugs name for headache</a></h3>
+        <h3><a href = "#tablets name for stomach pain">Tablets and drugs name for stomach pain</a></h3>
+        <h3><a href = "#tablets for other disorder">Tablets for other disorder</a></h3>
+        </fieldset>
+        </p>
+            <style>
+            a:link, a:visited {
+              background-color: #f44336;
+              color: white;
+              padding: 14px 25px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+            }
+            
+            a:hover, a:active {
+              background-color: red;
+            }
+            </style>
+        <fieldset>
+        <div class="about">
+        <h1 id ="About">About</h1>
+        <p><h2>This website is built for creating a awareness among people to aren't regularly taking a medicine prescribed by doctors.This website is also for uploading your medical reports to keep to safe for your future use.In this website,we are going to place an alarm for the people who are forget to take their tables and medicines.</h2></p>
+        </div>
+        <p><a href ="#back to top">Back to top</a></p>
+        </fieldset>
+        <br>
+
+        <fieldset>
+        <div class="label">
+        <h2 id="hospital reports upload"><label for="reports">Medical reports upload here</h2>
+        </div>
+          <input type="file" name="file" id="file" class="inputfile">
+          <label for="file">Choose a file (Click me)</label>
+        <p><a href ="#back to top">Back to top</a></p>
+        </fieldset>
+        <br>
+
+        <h2 id="tablets name for sugar patients">Tablets and medicines name for sugar patients</h2>
+        <p>
+            <fieldset>
+                <div class="select">
+                    <select id="standard-select">
+                        <option value="Option 1">Select Tablet Name</option>
+                        <option value="Option 2">Humalin and Novelin</option>
+                        <option value="Option 3">Novolog</option>
+                        <option value="Option 4">FlexPen</option>
+                        <option value="Option 5">Fiasp</option>
+                        <option value="Option lenght">Apidra</option>
+                        <option value="Option length">Humalog</option>
+                        <option value="Option length">Humalin N</option>
+                        <option value="Option length">Novelin N</option>
+                        <option value="Option length">Tresiba</option>
+                        <option value="Option length">Levemir</option>
+                        <option value="Option length">Lantus</option>
+                        <option value="Option length">Toujeo</option>
+                        <option value="Option length">Precose</option>
+                        <option value="Option length">Glyset</option>
+                    </select>
+                    </div>
+            <fieldset>
+                <div class="other1">
+                <h2>Others</h2>
+                <textarea name="Others tablets" cols="40" rows="2" placeholder="Enter your tablet name" style="font-size: 12pt; height: 40px; color: blue; width:280px;"></textarea>
+                </div>
+            </fieldset>
+        </p>
+        <p><a href ="#back to top">Back to top</a></p>
+        </fieldset>
+        <br>
+
+        <fieldset>
+        <h2 id="tablets name for bp patiets">Tablets and medicines name for high blood pressure patients</h2>
+        <p>
+        <label for="standard-select"></label>
+        <div class="select">
+        <select id="standard-select">
+            <option value="Option 1">Select the Tablet name</option>
+            <option value="Option 2">lisinopril</option>
+            <option value="Option 3">amlodipine</option>
+            <option value="Option 4">losartan</option>
+            <option value="Option 5">hydrochlorothiazide</option>
+            <option value="Option length">metoprolol</option>
+            <option value="Option length">atenolol</option>
+            <option value="Option length">Lopressor</option>
+            <option value="Option length">metoprolol Tartate</option>
+            <option value="Option length">Toprol-XL</option>
+        </select>
+        </div>
+        <fieldset>
+        <div class="other2">  
+            <h2>Others:</h2>
+                <textarea name="Others tablets" cols="40" rows="2" placeholder="Enter your tablet name" style="font-size: 15pt; height: 40px; color: blue; width:280px;"></textarea>
+        </div>
+        </fieldset>
+        </p>
+        <p><a href ="#back to top">Back to top</a></p>
+        </fieldset>
+        <br>
+        <fieldset>
+        <h2 id="tablets name for fever">Tablets and medicines name for fever</h2>
+        <p>
+            <div class="select">
+                <select id="standard-select">
+                    <option value="Option 1">Select the Tabet Name</option>
+                    <option value="Option 2">Paracetomol</option>
+                    <option value="Option 3">Aspirin</option>
+                    <option value="Option 4">Docosanol</option>
+                    <option value="Option 5">Ibuprofin</option>
+                    <option value="Option length">Ketoprofin</option>
+                    <option value="Option length">Metamizole</option>
+                    <option value="Option length">Naproxen</option>
+                    <option value="Option length">Phenazone</option>
+                    <option value="Option length">Propyphenazone</option>
+                </select>
+                </div>
+            <fieldset>
+                <div class="other3">
+                <h2>Others:</h2>
+                <textarea name="Others tablets" cols="40" rows="2" placeholder="Enter your tablet name" style="font-size: 15pt; height: 40px; color: blue; width:280px;"></textarea>
+                </div>
+            </fieldset>
+        </p>
+        <p><a href ="#back to top">Back to top</a></p>
+        </fieldset>
+        <br>
+
+        <fieldset>
+        <h2 id="tablets name for cold and cough">Tablets and medicines name for cold and cough</h2>
+        <p>
+            <div class="select">
+                <select id="standard-select">
+            <option value="Option 1">Select the Tabet Name</option>
+            <option value="Option 2">Codral</option>
+            <option value="Option 3">Coldrex</option>
+            <option value="Option 4">Lemsip</option>
+            <option value="Option 5">Dimetapp</option>
+            <option value="Option length">Robitussin</option>
+            <option value="Option length">Crocin</option>
+            </select>
+            </div>
+            <fieldset>
+                <div class="other4">
+                <h2>Others:</h2>
+                <textarea name="Others tablets" cols="40" rows="2" placeholder="Enter your tablet name" style="font-size: 15pt; height: 40px; color: blue; width:280px;"></textarea>
+                </div>
+            </fieldset>
+        </p>
+        <p><a href ="#back to top">Back to top</a></p>
+        </fieldset><br>
+
+        <fieldset>
+        <h2 id="tablets name for headache">Tablets and medicine name for headache</h2>
+        <p>
+            <div class="select">
+                <select id="standard-select">
+                    <option value="Option 1">Select the Tabet Name</option>
+                    <option value="Option 2">naproxen</option>
+                    <option value="Option 3">ketorolac</option>
+                    <option value="Option 4">indomethacin</option>
+                    </select>
+            </div>
+            <fieldset>
+                <div class="other5">
+                <h2>Others:</h2>
+                <textarea name="Others tablets" cols="40" rows="2" placeholder="Enter your tablet name" style="font-size: 15pt; height: 40px; color: blue; width:280px;"></textarea>
+            </div>
+            </fieldset>
+        </p>
+        <p><a href ="#back to top">Back to top</a></p>
+        </fieldset>
+        <br>
+
+        <fieldset>
+        <h2 id="tablets name for stomach pain">medicines name for stomach pain</h2>
+        <p>
+            <div class="select">
+                <select id="standard-select">
+                    <option value="Option 1">Select the Tabet Name</option>
+                    <option value="Option 2">Simethicone</option>
+                    <option value="Option 3">Antacid</option>
+                    <option value="Option 4">Famotidine</option>
+                    <option value="Option 5">Rantitidine</option>
+                    <option value="Option length">Docusates</option>
+                    <option value="Option length">Loperamide</option>
+                    <option value="Option length">Bismuth</option>
+                    <option value="Option length">Lactacid</option>
+                    <option value="Option length">Dipep</option>
+                </select>
+                </div>
+            <fieldset>
+                <div class="other6">
+                <h2>Others:</h2>
+                <textarea name="Others tablets" cols="40" rows="2" placeholder="Enter your tablet name" style="font-size: 15pt; height: 40px; color: blue; width:280px;"></textarea>
+            </div>
+            </fieldset>
+        </p>
+        <p><a href ="#back to top">Back to top</a></p>
+        </fieldset>
+        <br>
+         
+        <p>
+            <fieldset>
+                <div class="other7">
+                <h2 id="tablets for other disorder">Tablets for other disorder</h2>
+                <textarea name="Other disorder tablets" cols="40" rows="5" placeholder="Enter your tablet name" style="font-size: 15pt; height: 40px; color: blue; width:280px;"></textarea>
+                </div>
+                <p><a href="#back to top">Back to top</a></p>
+            </fieldset>
+        </p>
+        <fieldset>
+        <p>
+            <div class="alarm">
+            <h2>Time to set alarm</h2>
+            <label for="time"></label>
+            <input type="time" name="Raising Time" id="time">
+            </div>
+        </p>
+        </fieldset>
+        <p>
+            <fieldset>
+            <div class="date">
+            <h2>Date</h2>
+            <label for="Day"></label>
+            <input type="date" name= "day" id="day">
+            </div>
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                <h2>Do's</h2>
+                <ol>
+                    <li>Search a tablets name and select it</li>
+                    <li>Put an alarm with required time,day and week</li>
+                    <li>Submit it to save</li>
+                </ol>
+            </fieldset>
+        </p>
+
+        <p>
+            <style>
+                ul {
+                  list-style-image: url('');
+                }
+            </style>
+            <fieldset>
+                <h2>Dont's</h2>
+                <ul>
+                    <li>Don't select wrong time for alarm</li>
+                    <li>Don't select the wrong tablets</li>
+                </ul>
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                <div class="feed">
+                <h2>Feedback comment box</h2>
+                <textarea name="feedback comments" cols="40" rows="15" placeholder="Enter your feedback about my webpage" style="font-size: 20pt; color: blue;"></textarea>
+                </div>
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                <h2>Submit:</h2>
+                <button class="buttonfx curtainup">Submit</button>
+            </fieldset>
+        </p>
+
+    </body>
+</html>
